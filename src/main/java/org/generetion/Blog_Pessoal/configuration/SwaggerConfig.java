@@ -19,19 +19,19 @@ public class SwaggerConfig {
 	public OpenAPI springOpenAPI() {
 		return new OpenAPI()
 				.info(new Info()
-						.title("Project Gees")
-						.description("This is a Ecomerce project")
+						.title("Projeto Blog Pessoal")
+						.description("Blog pessoal da Raysa")
 						.version("v0.0.1")
 						.license(new License()
 								.name("Gees Brazil")
 								.url("<https://brazil.generation.org/>"))
 						.contact(new Contact()
-								.name("Github Boaz")
-								.url("<https://github.com/GustavoBoaz/>")
-								.email("gustavo.boaz@hotmail.com")))
+								.name("Github Raysa")
+								.url("<https://github.com/RAYSAFIGUEIREDO/>")
+								.email("raysafiigueiredo@gmail.com")))
 				.externalDocs(new ExternalDocumentation()
 						.description("Github Project")
-						.url("<https://github.com/GustavoBoaz/project_Gees>"));
+						.url("<https://github.com/RAYSAFIGUEIREDO/BLOG_PESSOAL>"));
 	}
 
 	private ApiResponse createApiResponse(String message) {
